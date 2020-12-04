@@ -1,0 +1,9 @@
+1.初始化listview，adapter，写布局
+2.加载适配器
+3.判断用户是否已经给读取联系人权限，：
+    给权限：读取联系人
+    不给：申请权限，申请权限的结果在onRequestPermissionsResult.方法中写
+        给了：读取联系人
+        不给：没办法
+4.manifest放入权限
+
